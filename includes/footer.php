@@ -46,7 +46,7 @@
                     <p class="text-secondary small mb-0">&copy; <?php echo date("Y"); ?> Alain-e-Shopping. All rights reserved.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <p class="text-secondary small mb-0">Designed for Premium Web Design CAT 2.</p>
+                    <p class="text-secondary small mb-0">Designed for Alain-e-Shopping.</p>
                 </div>
             </div>
         </div>

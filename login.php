@@ -105,32 +105,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <p class="text-secondary small mb-0">Don't have an account? <a href="register.php" class="text-gradient-primary fw-bold text-decoration-none">Sign Up Here</a></p>
                 </div>
                 
-                <!-- Quick developer access shortcuts -->
-                <div class="mt-4 pt-4 border-top border-secondary">
-                    <h6 class="text-white font-heading text-center mb-3">Quick Demo Portals (CAT 2 Testing)</h6>
-                    <div class="d-flex flex-column gap-2">
-                        <button type="button" class="btn btn-sm btn-outline-warning w-100" onclick="fillCreds('admin@shopping.com', 'admin123')">
-                            <i class="bi bi-person-fill-gear me-1"></i> Admin Portal (admin@shopping.com / admin123)
-                        </button>
-                        <button type="button" class="btn btn-sm btn-outline-info w-100" onclick="fillCreds('seller@shopping.com', 'seller123')">
-                            <i class="bi bi-shop me-1"></i> Seller Portal (seller@shopping.com / seller123)
-                        </button>
-                        <button type="button" class="btn btn-sm btn-outline-success w-100" onclick="fillCreds('customer@shopping.com', 'customer123')">
-                            <i class="bi bi-person me-1"></i> Customer Portal (customer@shopping.com / customer123)
-                        </button>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
 </div>
-
-<script>
-function fillCreds(email, password) {
-    document.getElementById('email').value = email;
-    document.getElementById('password').value = password;
-}
-</script>
 
 <?php require_once 'includes/footer.php'; ?>

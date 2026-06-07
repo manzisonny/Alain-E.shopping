@@ -1,5 +1,6 @@
 <?php
 // config/db.php
+ob_start();
 
 // Dynamic Base URL Configuration
 $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';

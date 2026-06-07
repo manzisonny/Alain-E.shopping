@@ -1548,3 +1548,13 @@ select option,
 
 /* Toast z-index */
 .toast-container { z-index: 9999 !important; }
+
+/* Fix: Compact quantity/number input styling in details and cart */
+input[type="number"].form-glass-input {
+    padding-left: 0.75rem !important;
+    padding-right: 0.25rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    height: 42px !important;
+    font-size: 0.95rem !important;
+}
