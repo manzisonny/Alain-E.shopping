@@ -1,0 +1,52 @@
+# ===========================
+# Alain E-Shopping .gitignore
+# ===========================
+
+# Uploaded product images & seller documents (user-generated content)
+assets/uploads/*.jpg
+assets/uploads/*.jpeg
+assets/uploads/*.png
+assets/uploads/*.gif
+assets/uploads/*.webp
+assets/uploads/*.zip
+assets/uploads/*.pdf
+
+# Keep the uploads directory but not its contents
+!assets/uploads/.gitkeep
+
+# PHP config overrides / local settings
+config/db-local.php
+config/db-backup*.php
+config/.env
+
+# IDE & editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# XAMPP / server logs
+*.log
+error_log
+access_log
+
+# Composer (if used)
+vendor/
+composer.lock
+
+# Node (if used)
+node_modules/
+
+# Test / scratch files
+test-base-url.php
+FIX_NOW.txt
+URGENT_FIX.md
+db-simple.php
+config/db-simple.php
